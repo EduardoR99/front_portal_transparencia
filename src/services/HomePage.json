@@ -1,0 +1,158 @@
+{
+    "Name": "HomeItems",
+    "ItemsMenu": [
+        {
+            "title": "Compras",
+            "subtitle": "Dispõe dos processos licitatórios e dispensados de licitação, contratos e aditivos firmados, fornecimentos e documentos firmados pela Administração Pública",
+            "subItem": ["Inexigibilidade","Convênios","Dispensas","Licitações","Contratos e aditivos", "Fiscais de Contratos","Termos de Compromisso/Altas","Ordem de Compras"],
+            "downloadableContent": ["Contratos e aditivos (Documentos)","Altas de Registro de Preço (Documentos)","Altas das Licitações (Documentos)","Editais (Documentos)","Altas de Adesão - SRP","Fiscal de Contrato","Processos de Dispensa e Inexigibilidade","Contratos e Aditivos - Lei nº 14.133/2021 (Documentos)","Licitantes/Contratados Sancionados (Documentos)","Parcerias com Entidades da Sociedade Civil Organizada (Documentos)","Plano de Contratuações Anual (Documentos)"],
+            "externalLinks": ["Cadastro Nacional de Empresas Punidas (CNEP)","Cadastro de Empresas Inidôneas - TCEES"],
+            "visualisations": "8,2% das Visualizações",
+            "lastUpdate": "Alterado em: 20/01/2025"
+        },
+        {
+            "title": "Obras",
+            "subtitle": "Ferramenta disponibilizada pelo Tribunal de Contas ao cidadão, para fiscalização/acompanhamento das obras municipais",
+            "subItem": ["Painel de Controle - OBRAS","Contrato de Obras"],
+            "downloadableContent": ["Estudo de impacto Ambiental - EIA","Relatório de Impacto Ambiental - RIMA","Estudo de Impacto de Vizinhança - EIV","Licenciamento Ambiental","Audiências e Consultas Públicas - Obras" ],
+            "externalLinks": [],
+            "visualisations": "0,3% das Visualizações",
+            "lastUpdate": "Alterado em: 01/01/2025"
+        },
+        {
+            "title": "Materiais e Bens",
+            "subtitle": "Dispõe das informações de entradas e saídas do almoxarifado da Administração Púbhca e das informações patrimoniais do conjunto de bens sob domínio do órgão.",
+            "subItem": ["Entrada de Estoque","Saída de Estoque","Bens Consolidados","Bens Móveis","Bens Imóveis","Bnes Intangíveis","Frota"],
+            "downloadableContent": ["Inventário de bens"],
+            "externalLinks": [],
+            "visualisations": "2,2% das Visualizações",
+            "lastUpdate": "Alterado em: 20/01/2025"
+        },
+        {
+            "title": "Receitas",
+            "subtitle": "Dispõe dos recursos auferidos pela Administração Pública, ou seja, montante total como anpostos, taxas e contribuições em dinheiro, recolhido e incorporado.",
+            "subItem": ["Receita Prevista","Receita Realizada","Arrecadação das Receitasa por Percentual","Receita Lançada","Lista de Dívida Ativa"],
+            "downloadableContent": ["Incentivos/Renúncias Fiscais"],
+            "externalLinks": [],
+            "visualisations": "2,6% das Visualizações",
+            "lastUpdate": "Alterado em: 19/01/2025"
+        },
+        {
+            "title": "Despesas",
+            "subtitle": "Dispõe da aplicação de recursos da Administração Pública em empenhos, hquidações e pagamentos para custear serviços ou investir no desenvolvÍnento econômico.",
+            "subItem": ["Empenhos e Favorecidos","Liquidações e Favorecidos","Pagamentos e Favorecidos","Ordem Cronológica dos Pagamentos","Despesas com Diárias","Despesas com passagens","Despesas com Obras","Programas, Projetos e Ações"],
+            "downloadableContent": ["Viagens e Diárias Custeados por Terceiros","Ordem Conológica dos Pagamentos (Documentos)","Relatório Res. Execução Orçamentária (RREO) (Documentos)","Relatório Gestão Fiscal (RGF) (Documentos)","Créditos Suplementares (Docuemntos)","Despesas com Diárias (Documentos)","Balanço Anual","Balancetes Mensais (Documentos)","Relatórios da Divida Pública","Cumprimento de Metas - PPA"],
+            "externalLinks": [],
+            "visualisations": "4,8% das Visualizações",
+            "lastUpdate": "Alterado em: 20/01/2025"
+        },
+        {
+            "title": "Orçamento",
+            "subtitle": "Dispõe do planejamento da Administração Pública em que constam as despesas fixadas para o exercício financeiro em equilíbrio com a receita prevista",
+            "subItem": ["Orçamento das Despesas","Orçamento das Receitas"],
+            "downloadableContent": ["Plano Plurianual (PPA) (Documentos)","Lei de Diretrizes Orçamentárias (LDO) (Documentos)","Lei Orçamentária Anual (LOA) (Documentos)","Orçamentos (Outros Documentos)","Relatório de Dívidas Públicas"],
+            "externalLinks": [],
+            "visualisations": "3,7% das Visualizações",
+            "lastUpdate": "Alterado em: 18/01/2025"
+        },
+        {
+            "title": "Repasses",
+            "subtitle": "Dispõe dos acordos firmados pela Administração Pública para a realização de atividades de interesse comum aos dos participantes.",
+            "subItem": ["Convênios Concedidos", "Emendas Parlamentares/Convênios Recebidos", "Transferências Extraorçamentárias","Transferências Intraorçamentárias "],
+            "downloadableContent": ["Emendas Parlamentares/Convênios Recebidos (Documentos)","Emendas Parlamentares Federais","Emendas Parlamentares Estaduais","Emendas Parlamentares Municipais","Acordo/Ajustes não Financeiros (Documentos)","Incentivos - Projetos Culturais"],
+            "externalLinks": ["Transferências Especiais", "Transferências Federais"],
+            "visualisations": "2,2% das Visualizações",
+            "lastUpdate": "Alterado em: 20/01/2025"
+        },
+        {
+            "title": "Controladoria",
+            "subtitle": "Dispõe das auditorias e inspeções, instruções normativas, recomendações, pareceres técnicos e outras atividades de controle da Administração Pública",
+            "subItem": [],
+            "downloadableContent": ["Lei de Acesso à Informação - LAI (Documentos)","Legislação Especifica (Documentos)", "Auditorias Externas (Documentos)","Conselhos Municipais (Documentos)","Auditorias Internas (Documentos)","Instruções Normativas (INs) (Documentos)","Recomendações e Pareceres Técnicos (Documentos)","Prestação de Contas Anual (PCA) (Documentos)","Parecer do Tribunal de Contas (Documentos)","Julgamento das Contas pelo Legislativo (Externo)","Relatório Ouvidoria e Acesso à Informação","Carta de Serviços (Documentos)","Plano de Ação - SIAFIC (Documentos)","Time Brasil (Documentos)","Outras Normas (Documentos)","Código de Ética dos Servidores Públicos"],
+            "externalLinks": [],
+            "visualisations": "3,7% das Visualizações",
+            "lastUpdate": "Alterado em: 06/01/2025"
+        },
+        {
+            "title": "Controladoria",
+            "subtitle": "Dispõe das auditorias e inspeções, instruções normativas, recomendações, pareceres técnicos e outras atividades de controle da Administração Pública",
+            "subItem": [],
+            "downloadableContent": ["Lei de Acesso à Informação - LAI (Documentos)","Legislação Especifica (Documentos)", "Auditorias Externas (Documentos)","Conselhos Municipais (Documentos)","Auditorias Internas (Documentos)","Instruções Normativas (INs) (Documentos)","Recomendações e Pareceres Técnicos (Documentos)","Prestação de Contas Anual (PCA) (Documentos)","Parecer do Tribunal de Contas (Documentos)","Julgamento das Contas pelo Legislativo (Externo)","Relatório Ouvidoria e Acesso à Informação","Carta de Serviços (Documentos)","Plano de Ação - SIAFIC (Documentos)","Time Brasil (Documentos)","Outras Normas (Documentos)","Código de Ética dos Servidores Públicos"],
+            "externalLinks": [],
+            "visualisations": "3,7% das Visualizações",
+            "lastUpdate": "Alterado em: 06/01/2025"
+        },
+        {
+            "title": "Pessoal",
+            "subtitle": "Dispõe das informações dos servidores da Administração Pública, demonstrando sua situação funcional, cargo, lotação e demonstrativo das suas remunerações.",
+            "subItem": ["Servidores","Servidores por Secretarias","Planos de Cargas e Salários","Listas de Estagiários","Cargas e Vagas","Cargos Comissionados"],
+            "downloadableContent": ["Servidores Terceirizados","Atos Oficiais (Documentos)","Atos Oficiais","Concursos Encerrados (documentos)","Resultados dos Concursos (Documentos)","Funções e Atribuições dos Cargos (Documentos)","Cargos, Empregos e Funções Públicas","Cessão de Servidor","Tabela de Remuneração (Documentos)"],
+            "externalLinks": ["Processos Seletivos", "Concursos Públicos-Convocações"],
+            "visualisations": "50,2% das Visualizações",
+            "lastUpdate": "Alterado em: 14/01/2025"
+        },
+        {
+            "title": "Conselhos Municipais",
+            "subtitle": "Conselhos Municipais",
+            "subItem": [],
+            "downloadableContent": ["Conselhos Municipais - Contatos","Conselho Municipal de Saúde","Conselho Municipal de Assistência Social","Conselho Municipal da Criança e do Adolescente","Conselho Municipal da Defesa e do Direito da pessoa Idosa","Conselho Municipal da Juventude","Conselho Municipal da Pessoa com Deficiência","Conselho Municipal de Defesa do Consumidor","Conselho Municipal de Economia Solidária","Conselho Municipal de Habitação","Conselho Municipal de Política sobre Drogas","Conselho Municipal de Segurança Alimentar","Conselho Municipal da Mulher"," Conselho Municipal de Educação","Conselho Municipal da Mulher","Conselho Municipal da Educação","Conselho Municipal de Transparência Pública e Combate à Corrupção","Conselho Municipal de Acompanhamento e Controle Social do FUNDEB e de Valorização de Profissionais da Educação - CACS FUNDEB"],
+            "externalLinks": [],
+            "visualisations": "0,2% das Visualizações",
+            "lastUpdate": "Alterado em: 01/01/2025"
+        },
+        {
+            "title": "Saneamento Básico",
+            "subtitle": "Serviços Colatinense de Saneamento Ambiental - SANEAR",
+            "subItem": [],
+            "downloadableContent": ["Legislação Específica","Plano Municipal de Saneamento Básico","SNIS - Informações sobre Saneamento","Carta de Serviços - SANEAR","Laudos de Qualidade da Água","Tabela de Valores de Serviços do SANEAR","Laudos de Tratamento de Esgoto","Rotas de Coleta de Lixo","TAC - Termos de Ajustamento de Conduta","Auditorias Realizadas","Outras Informações - SANEAR"],
+            "externalLinks": [],
+            "visualisations": "0,6% das Visualizações",
+            "lastUpdate": "Alterado em: 20/01/2025"
+        },
+        {
+            "title": "Fundo de Trânsito",
+            "subtitle": "Publicação das receitas e despesas do Fundo Municipal de Trânsito (busdoor, rotativo e multas), conforme Lei no 6.733/2020.",
+            "subItem": ["Receitas Trânsito","Despesas Trânsito"],
+            "downloadableContent": ["Receitas/Despesas Trânsito (Documento)","Plano de Mobilidade do Município de Colatina (Documentos)","Receitas e Despesas Busdoor (Documentos)","Relatório de Multas (Documentos)","Legislação de Trânsito (Documentos)"],
+            "externalLinks": [],
+            "visualisations": "1,7% das Visualizações",
+            "lastUpdate": "Alterado em: 20/01/2025"
+        },
+        {
+            "title": "Integridade",
+            "subtitle": "Integridade pública dispõe sobre o conjunto de medidas e ações institucionais voltadas para a prevenção, detecção, investigação, correção e monitoramento de fraudes e atos de corrupção.",
+            "subItem": [],
+            "downloadableContent": ["Comissão de ètica Municipal (Documentos)","Lei de Acesso à Informação - LAI","Política de Gestão de Riscos","Código de Ética dos Servidores Públicos Municipais","Plano de Dados Aberto - PDA","Lei Geral de Proteção de Dados - LGPD","Lei Anticorrupção","Norma de Conflito de Interesses","Pplítica de Proteção à Identidade dos Denunciantes","Programa Governo Digital"],
+            "externalLinks": [],
+            "visualisations": "0,2% das Visualizações",
+            "lastUpdate": "Alterado em: 01/01/2025"
+        },
+        {
+            "title": "Saúde",
+            "subtitle": "Instrumentos de Planejamento e Gestão",
+            "subItem": ["Contratos e Aditivos - Saúde"],
+            "downloadableContent": ["Instrumentos de Planejamento (Saúde)","Contratos de Gestão com OS","Auditoria Interna de Saúde","Audiências Públicas","Relação Municipal de Medicamentos","Conferências de Saúde","Conselho Municipal de Saúde","Estabelecimento de Saúde Municipais","Controle de Qualdiade da Água","Programa Previne Brasil"],
+            "externalLinks": ["Medicamentos de Alto Custo"],
+            "visualisations": "0,8% das Visualizações",
+            "lastUpdate": "Alterado em: 20/01/2025"
+        },
+        {
+            "title": "Educação",
+            "subtitle": "Dispões sobre informações da área de Educação Municipal.",
+            "subItem": ["Chamada Pública Escolar","Critérios de alocação Lista de Espera"],
+            "downloadableContent": ["Plano Municipal de Educação","Termo de Acordo Judicial - Fundação Renova"],
+            "externalLinks": ["Portal do Responsável Escolar"],
+            "visualisations": "0,8% das Visualizações",
+            "lastUpdate": "Alterado em: 01/01/2025"
+        },
+        {
+            "title": "Emergências",
+            "subtitle": "Dispõe sobre as medidas para o enfrentamento da emergência de saúde pública decorrente do coronavírus, bem como sobre situações de emergência ou calamidade pública que possam comprometer a continuidade dos serviços públicos.",
+            "subItem": ["Dispensas Emergenciais","Contratos Emergenciais","Receitas Emergenciais","Ordens de Compras Emergenciais","Despesas Emergenciais"],
+            "downloadableContent": ["Vacinação","Casos de Covid 19","Contratações e Aquisições (COVID-19) (Documentos)","Recomendações e Orientações (COVID-19)","Receitas (Coronavírus) (Documentos)","Legislação COVID-19, Decretos Municipais e Portarias","Comissão de Trabalho (COVID-19)","Acompanhamento dos Órgãos de Controle (COVID-19)"],
+            "externalLinks": ["Ouvidoria (COVID-19)","Serviços de Informação ao Cidadão E-SIC (COVID-19)"],
+            "visualisations": "16,1% das Visualizações",
+            "lastUpdate": "Alterado em: 20/01/2025"
+        }
+    ]
+}
