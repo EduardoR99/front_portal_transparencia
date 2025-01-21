@@ -1,16 +1,22 @@
 <template>
-    <div>
-      <h3>Conversor SPED x Excel</h3>
-      <p>Converta seus arquivos do SPED para planilhas em formato Excel (xls), tornando sua edição e manipulação mais fácil e rápida.
-  
-  Registros separados em abas para facilitar a edição. Retorne facilmente os seus arquivos alterados para o formato SPED.</p>
-    </div>
-  </template>
-  
-  <script setup>
-  
-  </script>
-  
-  <style>
-  
-  </style>
+  <div class="flex justify-center items-center">
+    <img
+      id="banner-image"
+      src="../assets/banner.jpg"
+      alt=""
+      class="w-full h-[52vh] object-cover"
+    />
+  </div>
+</template>
+
+<script setup>
+</script>
+
+<style>
+img {
+  object-fit: cover;
+  object-position: center bottom; /* Alinha a parte inferior da imagem */
+  width: 100%;
+  height: 50vh;
+}
+</style>

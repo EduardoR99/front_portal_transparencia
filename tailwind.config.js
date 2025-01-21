@@ -6,8 +6,10 @@ export default {
   ],
   theme: {
     colors: {
-      'primary': '#005BAC',
+      'primary': '#0b7fab',
+      'primaryfont': '#005BAC',
       'secondary': '#FFD700',
+      'secondaryLight': '#eaef2c',
       'green': '#008000',
       'white': '#fff',
       'red': '#f00',
