@@ -1,11 +1,9 @@
 <template>
-  DEtailed Searchs
+  Detailed Searchs
 </template>
 
-<script>
-export default {
+<script setup>
 
-}
 </script>
 
 <style>

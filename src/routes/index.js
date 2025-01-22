@@ -12,13 +12,13 @@ const router = createRouter({
             component: HomePage
         },
         {
-            path: '/colatina/empenho',
-            name: 'home',
+            path: '/colatina/:menu/:submenu',
+            name: 'searchs',
             component: searchs
         },
         {
-            path: '/colatina/empenho/:subMenu',
-            name: 'home',
+            path: '/colatina/:menu/:submenu/:id',
+            name: 'detailedSearchs',
             component: detailedSearchs
         }
     ]

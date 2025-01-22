@@ -1,7 +1,7 @@
 <template>
   <div class="hover:scale-105 transition-transform duration-300">
     <div
-     title="aaaa" class="bg-secondaryLight text-primaryFont rounded-md p-6 flex flex-col "
+     title="aaaa" class="bg-secondary text-primaryFont rounded-md p-6 flex flex-col "
     >
       <p class="text-xl font-semibold">{{ title }}</p>
       <span class="text-sm text-justify py-2 font-medium">{{ subtitle }}</span>
@@ -24,13 +24,13 @@
     </div>
     <div
       v-show="isContentVisible"
-      class="bg-secondaryLight text-primaryFont rounded-b-md p-6 flex flex-col transition-all mt-[-1rem]"
+      class="bg-secondary text-primaryFont rounded-b-md p-6 flex flex-col transition-all mt-[-1rem]"
     >
       <ul class="text-sm text-justify py-2">
-        <li class="hover:text-white" v-for="(subItem, index) in subItems" :key="index">{{ subItem }}</li>
+        <li class="cursor-pointer hover:text-white" v-for="(subItem, index) in subItems" :key="index">{{ subItem }}</li>
       </ul>
       <ul class="text-sm text-start py-2">
-        <li class="hover:text-white" v-for="(content, index) in downloadableContent" :key="index">
+        <li class="cursor-pointer hover:text-white" v-for="(content, index) in downloadableContent" :key="index">
           {{ content }}
         </li>
       </ul>
