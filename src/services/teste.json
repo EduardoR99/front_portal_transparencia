@@ -1,0 +1,65 @@
+{
+    "Name": "Empenhos e Favorecidos",
+    "FieldHeader": "O empenho representa o primeiro estágio da despesa orçamentária. É registrado no momento da contratação do serviço, aquisição do material ou bem, obra e amortização da dívida. Segundo o art. 58 da Lei nº 4.320/1964, empenho é o ato emanado de autoridade competente que cria para o Estado obrigação de pagamento pendente ou não de implemento de condição. Consiste na reserva de dotação orçamentária para um fim específico. ",
+    "FieldHeaderFount": "Fonte: Tesouro Nacional.",
+    "content": [
+        {
+            "Name": "Dados do Empenho",
+            "contentItens": [
+                {
+                    "title": "Unidade Gestora:",
+                    "content": "PREFEITURA MUNICIPAL DE COLATINA"
+                },
+                {
+                    "title": "Data:",
+                    "content": "09/01/2025"
+                },
+                {
+                    "title": "Processo:",
+                    "content": "0010434/2024"
+                },
+                {
+                    "title": "Fonte de Recurso:",
+                    "content": "154200300001 -  FUNDEB    VAAT - 30"
+                },
+                {
+                    "title": "Nº Empenho:",
+                    "content": "0000175/2025"
+                },
+                {
+                    "title": "Tipo Empenho:",
+                    "content": "Ordinario"
+                },
+                {
+                    "title": "Ano Empenho:",
+                    "content": "2025"
+                },
+                {
+                    "title": "Subtítulo:",
+                    "content": "FUNDEB"
+                },
+                {
+                    "title": "Histórico:",
+                    "content": "EMPENHO PARA COBRIR DESPESAS COM AQUISICAO DE EQUIPAMENTOS E MOBILIARIOS DESTINADOS A EMEF 'HEBER SERGIO MARTINS'a, NO BAIRRO VICENTE SOELLA, CONFORME A.E. Nº 80/2025 (ATA DE REGISTRO DE PRECOS Nº 164/2024) ANEXA AO PROCESSO Nº 26.912/2024."
+                },
+                {
+                    "title": "Valor:",
+                    "content": "R$ 4.000,00"
+                }
+            ]
+        },
+        {
+            "Name": "Favorecido",
+            "contentItens": [
+                {
+                    "title": "Nome ou Razão Social:",
+                    "content": "Andre Panini Albissu - Epp."
+                },
+                {
+                    "title": "CPF/CNPJ:",
+                    "content": "08.885.380/0001-09"
+                }
+            ]
+        }
+    ]
+}

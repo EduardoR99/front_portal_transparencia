@@ -5,21 +5,18 @@
       class="flex justify-between items-center font-semibold cursor-pointer text-sm bg-blue-600 text-white px-2 py-2 rounded-md"
     >
       <span class="text-sm">{{ title }}</span>
-
-      <span class=" text-xs font-light">{{
-        isContentVisible ? "▲" : "▼"
-      }}</span>
+      <span class="text-xs font-light">{{ isOpen ? "▲" : "▼" }}</span>
     </div>
     <div
-      v-show="isContentVisible"
-      class="absolute top-full left-0 bg-white shadow-lg rounded-md  w-64 z-10"
+      v-show="isOpen"
+      class="absolute top-full left-0 bg-white shadow-lg rounded-md w-64 z-10"
     >
       <div v-if="subItems && subItems.length" class="p-4">
         <ul>
           <li
             v-for="(subItem, index) in subItems"
             :key="'subItem-' + index"
-            class="text-[12px] cursor-pointer hover:text-blue-900 py-1"
+            class="text-[12px] cursor-pointer hover:text-primary py-1"
           >
             {{ subItem }}
           </li>
@@ -31,7 +28,7 @@
           <li
             v-for="(content, index) in downloadableContent"
             :key="'content-' + index"
-            class="text-[12px] cursor-pointer hover:text-blue-900 py-1"
+            class="text-[12px] cursor-pointer hover:text-primary py-1"
           >
             {{ content }}
           </li>
@@ -43,7 +40,7 @@
           <li
             v-for="(link, index) in externalLinks"
             :key="'link-' + index"
-            class="text-[12px] cursor-pointer hover:text-blue-900 py-1"
+            class="text-[12px] cursor-pointer hover:text-primary py-1"
           >
             {{ link }}
           </li>
@@ -52,26 +49,27 @@
     </div>
   </div>
 </template>
-  
-  <script setup>
-import { ref } from "vue";
 
-defineProps({
+<script setup>
+import { defineProps, defineEmits } from 'vue';
+
+const props = defineProps({
   title: String,
   subtitle: String,
   subItems: Array,
   downloadableContent: Array,
   externalLinks: Array,
+  isOpen: Boolean
 });
 
-const isContentVisible = ref(false);
+const emit = defineEmits(['toggle']);
 
-function toggleMenu() {
-  isContentVisible.value = !isContentVisible.value;
-}
+const toggleMenu = () => {
+  emit('toggle');
+};
 </script>
-  
-  <style scoped>
+
+<style scoped>
 .relative {
   position: relative;
 }
@@ -92,4 +90,3 @@ function toggleMenu() {
   border-radius: 0.375rem;
 }
 </style>
-  

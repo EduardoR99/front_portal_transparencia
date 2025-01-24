@@ -7,7 +7,7 @@ export default {
   theme: {
     colors: {
       'primary': '#0b7fab',
-      'primaryfont': '#005BAC',
+      'primaryfont': '#004A91',
       'secondary': '#FFD700',
       'secondaryLight': '#eaef2c',
       'green': '#008000',
