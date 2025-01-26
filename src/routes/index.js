@@ -12,12 +12,12 @@ const router = createRouter({
             component: HomePage
         },
         {
-            path: '/colatina/:menu/:submenu',
+            path: '/colatina/despesas/empenhos',
             name: 'searchs',
             component: searchs
         },
         {
-            path: '/colatina/:menu/:submenu/:id',
+            path: '/colatina/despesas/empenhos/:id',
             name: 'detailedSearchs',
             component: detailedSearchs
         }

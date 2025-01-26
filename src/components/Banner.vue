@@ -14,9 +14,6 @@
 
 <style>
 img {
-  object-fit: cover;
-  object-position: center bottom; /* Alinha a parte inferior da imagem */
-  width: 100%;
-  height: 50vh;
+ 
 }
 </style>

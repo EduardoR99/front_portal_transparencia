@@ -4,60 +4,66 @@
     "FieldHeaderFount": "Fonte: Tesouro Nacional.",
     "content": [
         {
-            "Name": "Dados do Empenho",
+            "Name": "Classificação Institucional",
             "contentItens": [
                 {
-                    "title": "Unidade Gestora:",
-                    "content": "PREFEITURA MUNICIPAL DE COLATINA"
+                    "title": "Órgão:",
+                    "content": "210 - SECRETARIA MUNICIPAL DA FAZENDA"
                 },
                 {
-                    "title": "Data:",
-                    "content": "09/01/2025"
-                },
-                {
-                    "title": "Processo:",
-                    "content": "0010434/2024"
-                },
-                {
-                    "title": "Fonte de Recurso:",
-                    "content": "154200300001 -  FUNDEB    VAAT - 30"
-                },
-                {
-                    "title": "Nº Empenho:",
-                    "content": "0000175/2025"
-                },
-                {
-                    "title": "Tipo Empenho:",
-                    "content": "Ordinario"
-                },
-                {
-                    "title": "Ano Empenho:",
-                    "content": "2025"
-                },
-                {
-                    "title": "Subtítulo:",
-                    "content": "FUNDEB"
-                },
-                {
-                    "title": "Histórico:",
-                    "content": "EMPENHO PARA COBRIR DESPESAS COM AQUISICAO DE EQUIPAMENTOS E MOBILIARIOS DESTINADOS A EMEF 'HEBER SERGIO MARTINS'a, NO BAIRRO VICENTE SOELLA, CONFORME A.E. Nº 80/2025 (ATA DE REGISTRO DE PRECOS Nº 164/2024) ANEXA AO PROCESSO Nº 26.912/2024."
-                },
-                {
-                    "title": "Valor:",
-                    "content": "R$ 4.000,00"
+                    "title": "Unidade Orçamentária:",
+                    "content": "001 - SECRETARIA MUNICIPAL DA FAZENDA"
                 }
             ]
         },
         {
-            "Name": "Favorecido",
+            "Name": "Classificação Funcional",
             "contentItens": [
                 {
-                    "title": "Nome ou Razão Social:",
-                    "content": "Andre Panini Albissu - Epp."
+                    "title": "Função:",
+                    "content": "28 - Encargos Especiais"
                 },
                 {
-                    "title": "CPF/CNPJ:",
-                    "content": "08.885.380/0001-09"
+                    "title": "Subfunção:",
+                    "content": "843 - Servico da Divida Interna"
+                }
+            ]
+        },
+        {
+            "Name": "Estrutura Programática",
+            "contentItens": [
+                {
+                    "title": "Programa:",
+                    "content": "0008 - GESTAO DOS ENCARGOS ESPECIAIS A CARGO DO PODER EXECUTIVO MUNICIPAL"
+                },
+                {
+                    "title": "Ação (Atividade/Projeto/Operação Especial):",
+                    "content": "0.010 - AMORTIZACAO E ENCARGOS DA DIVIDA PUBLICA INTERNA MUNICIPAL"
+                }
+            ]
+        },
+        {
+            "Name": "Natureza da Despesa",
+            "contentItens": [
+                {
+                    "title": "Categoria Econômica:",
+                    "content": "30000000000 - DESPESAS CORRENTES"
+                },
+                {
+                    "title": "Grupo de Natureza da Despesa:",
+                    "content": "32000000000 - JUROS E ENCARGOS DA DIVIDAv"
+                },
+                {
+                    "title": "Modalidade de Aplicação:",
+                    "content": "32900000000 - APLICACOES DIRETAS"
+                },
+                {
+                    "title": "Elemento de Despesa:",
+                    "content": "32902100000 - JUROS SOBRE A DIVIDA POR CONTRATO"
+                },
+                {
+                    "title": "Subelemento:",
+                    "content": "32902101000 - JUROS DA DIVIDA CONTRATUAL"
                 }
             ]
         }

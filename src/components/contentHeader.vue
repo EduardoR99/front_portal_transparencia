@@ -5,6 +5,7 @@
     <h2 class="font-bold">{{name}}</h2>
     <p class="font-semibold">{{ content }}</p>
     <span class="text-sm italic self-end mt-3"> {{fount}}</span>
+    
   </div>
 </template>
 
