@@ -13,7 +13,7 @@
     >
       <div v-if="subItems && subItems.length" class="p-4">
         <ul>
-          <li
+          <li @click="goTo()"
             v-for="(subItem, index) in subItems"
             :key="'subItem-' + index"
             class="text-[12px] cursor-pointer hover:text-primary py-1"
@@ -25,7 +25,7 @@
       <div v-if="downloadableContent && downloadableContent.length" class="p-4">
         <h3 class="font-sm text-blue-700 mb-1">Conteúdos para Download</h3>
         <ul>
-          <li
+          <li @click="goTo()"
             v-for="(content, index) in downloadableContent"
             :key="'content-' + index"
             class="text-[12px] cursor-pointer hover:text-primary py-1"
@@ -37,7 +37,7 @@
       <div v-if="externalLinks && externalLinks.length" class="p-4">
         <h3 class="font-sm text-blue-700 mb-1">Links Externos</h3>
         <ul>
-          <li
+          <li @click="goTo()"
             v-for="(link, index) in externalLinks"
             :key="'link-' + index"
             class="text-[12px] cursor-pointer hover:text-primary py-1"
@@ -52,7 +52,11 @@
 
 <script setup>
 import { defineProps, defineEmits } from 'vue';
-
+import { useRouter } from 'vue-router';
+const router = useRouter();
+const goTo = () => {
+  router.push({ name: 'searchs' });
+};
 const props = defineProps({
   title: String,
   subtitle: String,

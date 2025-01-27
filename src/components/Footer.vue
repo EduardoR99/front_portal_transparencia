@@ -1,7 +1,7 @@
 
 <template>
     <footer class=" flex justify-center p-[.8rem] mt-{1rem}">
-        <p class="m-[.5rem]">Copyright LEFISC - Legislação Fiscal - Todos os Direitos Reservados</p>
+        <p class="m-[.5rem]">Eduardo Rodrigues - Todos os Direitos Reservados</p>
     </footer>
   </template>
   

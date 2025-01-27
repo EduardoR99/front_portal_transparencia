@@ -66,7 +66,7 @@
         >
           <p class="text-primaryfont font-semibold ml-6">{{ item.Name }}</p>
         </div>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-2 mt-2 gap-4 px-6 pb-6">
+        <div class="grid sm:grid-cols-1 lg:grid-cols-2 mt-2 gap-4 px-6 pb-6">
           <detailedField
             v-for="(field, fieldIndex) in item.contentItens"
             :key="fieldIndex"
