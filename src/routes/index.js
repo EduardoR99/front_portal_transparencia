@@ -7,17 +7,17 @@ const router = createRouter({
     history: createWebHistory(),
     routes:[
         {
-            path: '/colatina/home',
+            path: '/',
             name: 'home',
             component: HomePage
         },
         {
-            path: '/colatina/despesas/empenhos',
+            path: '/despesas/empenhos',
             name: 'searchs',
             component: searchs
         },
         {
-            path: '/colatina/despesas/empenhos/:id',
+            path: '/despesas/empenhos/:id',
             name: 'detailedSearchs',
             component: detailedSearchs
         }
