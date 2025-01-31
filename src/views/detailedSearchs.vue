@@ -1,9 +1,14 @@
 <template>
   <div class="bg-primaryfont">
     <subMenu />
-    
+
     <div class="p-[3rem] flex flex-col">
-      <div @click="goBack" class="p2 text-[#fff] text-lg font-semibold cursor-pointer hover:text-secondary">Voltar</div>
+      <div
+        @click="goBack"
+        class="p2 text-[#fff] text-lg font-semibold cursor-pointer hover:text-secondary"
+      >
+        Voltar
+      </div>
       <contentHeader
         :content="itemsTest.FieldHeader"
         :name="itemsTest.Name"
@@ -12,7 +17,6 @@
       <div
         class="w-full grid sm:grid-cols-1 lg:grid-cols-2 bg-[#fff] border-r border-b border-l mb-[3rem] p-3 border-secondary rounded-lg"
       >
-      
         <detailedField title="Ano" :content="empenhoData.ano" />
         <detailedField title="Mês" :content="empenhoData.mes" />
         <detailedField
@@ -56,25 +60,31 @@
       <div
         class="w-full bg-[#fff] border-r border-b border-l mb-[3rem] p-3 border-secondary rounded-lg"
       >
-      <div
-        v-for="(item, index) in itemsTest.content"
-        :key="index"
-        class="w-full bg-[#fff]  mb-[3rem] p-3 rounded-lg"
-      >
         <div
-          class="bg-secondary rounded-t-lg w-full text-[18px] flex flex-col justify-center items-start py-[.7rem]"
+          v-show="selectedItem == 'Classificação Orçamentária'"
+          v-for="(item, index) in itemsTest.content"
+          :key="index"
+          class="w-full bg-[#fff] mb-[3rem] p-3 rounded-lg"
         >
-          <p class="text-primaryfont font-semibold ml-6">{{ item.Name }}</p>
+          <div
+            class="bg-secondary rounded-t-lg w-full text-[18px] flex flex-col justify-center items-start py-[.7rem]"
+          >
+            <p class="text-primaryfont font-semibold ml-6">{{ item.Name }}</p>
+          </div>
+          <div class="grid sm:grid-cols-1 lg:grid-cols-2 mt-2 gap-4 px-6 pb-6">
+            <detailedField
+              v-for="(field, fieldIndex) in item.contentItens"
+              :key="fieldIndex"
+              :title="field.title"
+              :content="field.content"
+            />
+          </div>
         </div>
-        <div class="grid sm:grid-cols-1 lg:grid-cols-2 mt-2 gap-4 px-6 pb-6">
-          <detailedField
-            v-for="(field, fieldIndex) in item.contentItens"
-            :key="fieldIndex"
-            :title="field.title"
-            :content="field.content"
-          />
-        </div>
-      </div></div>
+        <div class="text-primaryfont flex justify-center" v-show="selectedItem == 'Bem(ns) e Serviço(s)'"><p>Este empenho ainda não possui Bem(ns) e Serviço(s)</p></div>
+        <div class="text-primaryfont flex justify-center" v-show="selectedItem == 'Liquidação(ões)'"><p>Este empenho ainda não possui Liquidação(ões)</p></div>
+        <div class="text-primaryfont flex justify-center" v-show="selectedItem == 'Pagamento(s)'"><p>Este empenho ainda não possui Pagamento(s)</p></div>
+        <div class="text-primaryfont flex justify-center" v-show="selectedItem == 'Outras Informações'"><p>Este empenho ainda não possui Outras Inform</p></div>
+      </div>
     </div>
   </div>
 </template>
@@ -95,7 +105,7 @@ const itemsTest = ref(testeData);
 const selectedItem = ref(null);
 
 const goBack = () => {
-  router.push({ name: 'searchs' });
+  router.push({ name: "searchs" });
 };
 
 const handleItemClicked = (item) => {
