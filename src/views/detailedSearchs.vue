@@ -83,7 +83,7 @@
         <div class="text-primaryfont flex justify-center" v-show="selectedItem == 'Bem(ns) e Serviço(s)'"><p>Este empenho ainda não possui Bem(ns) e Serviço(s)</p></div>
         <div class="text-primaryfont flex justify-center" v-show="selectedItem == 'Liquidação(ões)'"><p>Este empenho ainda não possui Liquidação(ões)</p></div>
         <div class="text-primaryfont flex justify-center" v-show="selectedItem == 'Pagamento(s)'"><p>Este empenho ainda não possui Pagamento(s)</p></div>
-        <div class="text-primaryfont flex justify-center" v-show="selectedItem == 'Outras Informações'"><p>Este empenho ainda não possui Outras Inform</p></div>
+        <div class="text-primaryfont flex justify-center" v-show="selectedItem == 'Outras Informações'"><p>Este empenho ainda não possui Outras Informações</p></div>
       </div>
     </div>
   </div>
