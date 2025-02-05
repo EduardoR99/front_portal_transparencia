@@ -4,13 +4,7 @@
         <card
           v-for="(item, index) in itemsMenu"
           :key="index"
-          :title="item.title"
-          :subtitle="item.subtitle"
-          :subItems="item.subItem"
-          :downloadableContent="item.downloadableContent"
-          :externalLinks="item.externalLinks"
-          :visualisations="item.visualisations"
-          :lastUpdate="item.lastUpdate"
+          :item="item"
         />
       </div>
     </div>
